@@ -13,7 +13,11 @@
  * logMessage() => 'Hello, World!'
 */
 
-// Your code goes here
+function logMessage() {
+  console.log('Hello, World!');
+}
+
+logMessage();
 
 
 
@@ -29,8 +33,11 @@
  * logMyMessage('My message') => 'My message'
 */
 
-// Your code goes here...
+function logMyMessage(arg1) {
+  console.log(arg1);
+}
 
+logMyMessage('seize the means of production');
 
 
 
@@ -41,10 +48,14 @@
   * The function MUST use NAMED function syntax.
   * The function logs a message of 'My name is <name>!'.
   * The name is a string value passed as an argument
- * logMessageWithMyName('Andrey') => 'My name is Andrey!'
+ * logMessageWithMyName('Andrea') => 'My name is Andrea!'
 */
 
-// Your code goes here...
+function logMessageWithMyName(arg2) {
+  console.log('My Name is ' + arg2 + '!');
+}
+
+logMessageWithMyName('Marcos');
 
 
 
@@ -54,15 +65,17 @@
  * Create a function that works as follows:
   * the function name is 'logMyInfo' strictly.
   * The function MUST use NAMED function syntax.
-  * The function of logs a message of 'My name is <name>. I am <age> years old!'.
+  * The function of logs a message of 'My name is <name>. I am <age> years old!'. 
   * The name is a string value passed as an argument.
   * The age is a number value passed as an argument.
- * logMyInfo('Andrey', 18) => 'My name is Andrey. I am 18 years old!'
+ * logMyInfo('Andrea', 18) => 'My name is Andrea. I am 18 years old!'
 */
 
-// Your code goes here...
+function logMyInfo(arg3, arg4) {
+  console.log('My Name is ' + arg3 + '. I am ' + arg4 + ' years old!');
+}
 
-
+logMyInfo('Emiliano', 32);
 
 
 // === TEST YOURSELF ===
