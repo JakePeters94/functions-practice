@@ -11,7 +11,15 @@
  * Example2: getDiffTwentySeven(37) => 20
  */
 
-// Your code goes here...
+function getDiffTwentySeven(num) {
+  if (num > 27) {
+    return (num - 27) * 2;
+  }
+  return 27 - num;
+}
+
+getDiffTwentySeven(13);
+getDiffTwentySeven(37);
 
 
 
@@ -23,7 +31,15 @@
  * Example2: sumOfTwoIntegers(12, 12) => 72
  */
 
-// Your code goes here
+function sumOfTwoIntegers(num1, num2) {
+  if (num1 === num2) {
+    return (num1 + num2) * 3;
+  }
+  return num1 + num2;
+}
+
+sumOfTwoIntegers(13, 14);
+sumOfTwoIntegers(12, 12);
 
 
 
@@ -37,7 +53,18 @@
  * Example3: isOneOfThemOrTheirSumIsFourty(23, 16) => false
  */
 
-// Your code goes here...
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if ((num1 + num2) === 40) {
+  return true;
+} else if (num1 === 40 || num2 === 40) {
+  return true;
+}
+  return false;
+}
+
+isOneOfThemOrTheirSumIsFourty(40, 13);
+isOneOfThemOrTheirSumIsFourty(22, 18);
+isOneOfThemOrTheirSumIsFourty(23, 16);
 
 
 
